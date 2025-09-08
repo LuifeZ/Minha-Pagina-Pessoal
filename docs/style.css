@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffe6f0, #d0f0ff); 
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: linear-gradient(90deg, #ff7f50, #ffb347); 
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 0 0 20px 20px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+
+nav {
+    background: #ff6f91;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #ffd3b6; 
+    color: #ff6f91;
+}
+
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+section {
+    margin-bottom: 25px;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffffff, #f0f0ff); 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+section:hover {
+    transform: translateY(-5px); 
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #ff6f91;
+}
+
+
+ul {
+    list-style: disc; 
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    padding-left: 0; 
+}
+
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links li a {
+    color: #ff6f91;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links li a:hover {
+    color: #ffb347;
+    transform: scale(1.2); 
+}
+
+
+footer {
+    background: #ff6f91;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
